@@ -1,2 +1,0 @@
-- name: Azure SQL Deploy
-  uses: Azure/sql-action@v1
