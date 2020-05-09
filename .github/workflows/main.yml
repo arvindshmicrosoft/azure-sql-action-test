@@ -30,4 +30,4 @@ jobs:
       with:
         server-name: devops-sample-sqlsrv.database.windows.net
         connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
-        sql-file: 'sql/*.sql'
+        sql-file: 'sql/deploy.sql'
