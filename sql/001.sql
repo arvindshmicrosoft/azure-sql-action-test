@@ -28,8 +28,3 @@ insert into dbo.users
 values
 	('Davide', 'Mauri');
 go
-
-/*
-drop table dbo.[$__db_version];
-drop table dbo.users 
-*/
