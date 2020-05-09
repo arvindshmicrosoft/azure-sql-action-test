@@ -36,5 +36,8 @@ add id int not null default next value for dbo.[global-sequence];
 alter table dbo.users
 add constraint pk__users primary key (id);
 
+delete from dbo.[$__db_version];
+insert into dbo.[$__db_version] values (3, 1);
+
 commit;
 
