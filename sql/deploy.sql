@@ -1,4 +1,4 @@
-:r "000.sql"
-:r "001.sql"
-:r "002.sql"
-:r "003.sql"
+:r "sql/000.sql"
+:r "sql/001.sql"
+:r "sql/002.sql"
+:r "sql/003.sql"
