@@ -1,7 +1,9 @@
 set xact_abort on;
 
 declare @expectedSchemaVersion int = 3;
+
 declare @schemaVersion int;
+declare @dataVersion int;
 
 select top (1)
     @schemaVersion = schema_version,
