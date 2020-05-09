@@ -1,6 +1,6 @@
 set xact_abort on;
 
-declare @expectedSchemaVersion int = 3;
+declare @expectedSchemaVersion int = 2;
 
 declare @schemaVersion int;
 declare @dataVersion int;
