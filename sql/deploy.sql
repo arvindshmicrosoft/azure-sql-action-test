@@ -1,3 +1,5 @@
+:On Error Exit
+
 :r "sql/000.sql"
 go
 
