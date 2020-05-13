@@ -28,3 +28,6 @@ insert into dbo.users
 values
 	('Davide', 'Mauri');
 go
+
+delete from dbo.[$__db_version];
+insert into dbo.[$__db_version] values (1, 1);
