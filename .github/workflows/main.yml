@@ -28,6 +28,6 @@ jobs:
     # Deploy to Azure SQL
     - uses: azure/sql-action@v1
       with:
-        server-name: devops-sample-sqlsrv.database.windows.net
+        server-name: ${{ secrets.AZURE_SQL_SERVER_NAME }}
         connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
         sql-file: 'sql/deploy.sql'
