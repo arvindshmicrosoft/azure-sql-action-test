@@ -27,12 +27,13 @@ alter column firstname nvarchar(100) not null;
 alter table dbo.users 
 alter column lastname nvarchar(100) not null;
 
-update dbo.users
-set email = 'damauri@microsoft.com'
-where id = 1
+DECLARE @sql NVARCHAR(2048) = 'update dbo.users
+set email = ''damauri@microsoft.com''
+where id = 1'
+
+EXEC sys.sp_executesql @query = @sql;
 
 delete from dbo.[$__db_version];
 insert into dbo.[$__db_version] values (2, 1);
 
 commit;
-
