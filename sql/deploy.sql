@@ -15,3 +15,4 @@ go
 print "sql/003.sql"
 :r "sql/003.sql"
 go
+
