@@ -42,4 +42,3 @@ delete from dbo.[$__db_version];
 insert into dbo.[$__db_version] values (3, 1);
 
 commit;
-
